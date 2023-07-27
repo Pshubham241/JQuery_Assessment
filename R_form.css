@@ -1,0 +1,61 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: slateblue ;
+        }
+        h2{
+        padding: 15px;
+        background: midnightblue;
+        text-align: center;
+        font-family:  sans-serif;
+        color: white;
+        text-transform: uppercase;
+        }
+        .container  {
+            width: 450px;
+            padding: 20px;
+            background: rgb(188, 182, 255);
+            margin: 10px auto;
+        }
+        form{
+            border:2px solid ;
+            padding: 20px;
+            
+        }
+        .main{
+            padding: 5px;
+        }
+        .main label{
+            width:30%;
+            display: inline-block;
+            
+        }
+        .spe{
+            display: inline-block;
+        }
+        .main .texttt{
+            width: 65%;
+            padding: 3px;
+            border: none;
+            outline: none;
+            border-radius: 2px;
+        }
+        .btn{
+            background: rgb(165, 18, 55);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+           
+            cursor: pointer;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            margin: 10px auto;
+        }
+        
+
